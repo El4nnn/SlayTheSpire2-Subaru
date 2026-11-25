@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "jJxZ6bDNn7g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Elan\\Desktop\\塔2mod\\src\\SubaruVariants\\SubaruVariants.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elan\\Desktop\\塔2mod\\_tools\\nuget-packages\\godot.sourcegenerators\\4.5.1\\godot.sourcegenerators.4.5.1.nupkg.sha512",
+    "C:\\Users\\Elan\\Desktop\\塔2mod\\_tools\\nuget-packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "获取包漏洞数据时出错: Access to the path 'C:\\Users\\Elan\\AppData\\Local\\NuGet\\v3-cache\\670c1461c29885f9aa22c281d8b7da90845b38e4$ps_api.nuget.org_v3_index.json\\vuln_index.dat-new' is denied.",
+      "projectPath": "C:\\Users\\Elan\\Desktop\\塔2mod\\src\\SubaruVariants\\SubaruVariants.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Elan\\Desktop\\塔2mod\\src\\SubaruVariants\\SubaruVariants.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "SUBARU-AUTHORITY.title": "権能",
+  "SUBARU-AUTHORITY.description": "使用後に[gold]魔女の残り香[/gold]を N スタック得る。N はカードに記載されている。",
+  "SUBARU-CORROSION.title": "腐食",
+  "SUBARU-CORROSION.description": "1戦闘に1回しか使用できない。使用後に[gold]死に戻り[/gold]が発動すると、このカードはその戦闘から取り除かれる（戦闘終了後にデッキへ戻る）。ただし与えた能力は死に戻りでリセットされない。",
+  "SUBARU-YIN_MAGIC.title": "陰魔法",
+  "SUBARU-YIN_MAGIC.description": "ベアトリスが場にいる間、毎ターン最初に使用する[gold]陰魔法[/gold]カードのコストが-1。",
+  "SUBARU-NINE_GENERALS.title": "帝国軍",
+  "SUBARU-NINE_GENERALS.description": "そのターンに[gold]帝国軍[/gold]を使用した後、そのターンに次に使用する[gold]帝国軍[/gold]カードのコストが-1。",
+  "SUBARU-CORPSE_SOLDIER.title": "屍兵",
+  "SUBARU-CORPSE_SOLDIER.description": "[gold]大災[/gold]の屍兵。スフィンクスなどの効果は[gold]屍兵[/gold]からランダムに1枚選ぶ。",
+  "SUBARU-CONTRACT.title": "契約",
+  "SUBARU-CONTRACT.description": "戦闘開始時に山札の一番下に置かれる。1ターン目のドロー後に手札に加わる（初期手札の枠を使わない）。",
+  "SUBARU-WITCH_CURSE.title": "魔女の呪い",
+  "SUBARU-WITCH_CURSE.description": "使用不可。保留。他の効果で捨てられ・廃棄され・戦闘から取り除かれることはない（[gold]魔女の瘴気[/gold]を名指しする効果は除く）。"
+}

@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.json"
+type="SpineSkeletonFileResource"
+uid="uid://osg6oo11icvo"
+path="res://.godot/imported/subaru_spell.spine-json-397de469b13726931dcf566282ed4a0d.spjson"
+
+[deps]
+
+source_file="res://Subaru/animations/characters/subaru_spell/subaru_spell.spine-json"
+dest_files=["res://.godot/imported/subaru_spell.spine-json-397de469b13726931dcf566282ed4a0d.spjson"]
+
+[params]
+

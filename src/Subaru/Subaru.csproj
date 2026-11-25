@@ -1,0 +1,155 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1" InitialTargets="CheckDependencyPaths">
+    <Import Project=".\Sts2PathDiscovery.props"/>
+    <!-- RitsuLib锛堝厛鍙?鏃堕棿绾胯剼鎵嬫灦锛夛細璺緞鍙敤 RitsuLibDir 瑕嗙洊 -->
+    <PropertyGroup>
+        <RitsuLibDir Condition="'$(RitsuLibDir)' == ''">D:\SteamLibrary\steamapps\workshop\content\2868840\3747602295\</RitsuLibDir>
+        <!-- 鍙岀増鏈細SubaruTarget=beta锛?.113.x 娴嬭瘯鍒嗘敮锛夋垨 release锛?.107.x 榛樿鍒嗘敮锛?-->
+        <SubaruTarget Condition="'$(SubaruTarget)' == ''">beta</SubaruTarget>
+        <RitsuLibReferenceTarget Condition="'$(RitsuLibReferenceTarget)' == '' and '$(SubaruTarget)' == 'beta'">0.113.0</RitsuLibReferenceTarget>
+        <RitsuLibReferenceTarget Condition="'$(RitsuLibReferenceTarget)' == '' and '$(SubaruTarget)' == 'release'">0.111.0</RitsuLibReferenceTarget>
+        <DefineConstants Condition="'$(SubaruTarget)' == 'beta'">$(DefineConstants);GAME_BETA</DefineConstants>
+        <DefineConstants Condition="'$(SubaruTarget)' == 'release'">$(DefineConstants);GAME_RELEASE</DefineConstants>
+    </PropertyGroup>
+    <Import Project="$(RitsuLibDir)RitsuLib.References.props" Condition="Exists('$(RitsuLibDir)RitsuLib.References.props')" />
+    <PropertyGroup>
+        <!-- 鏈」鐩害鏉燂細涓嶅啓鍏ユ父鎴忕洰褰曪紝鍙戝竷浜х墿浠嶇劧鏀惧埌 dist\ -->
+        <ModsPath>$(MSBuildProjectDirectory)\..\..\dist\</ModsPath>
+    </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>true</ImplicitUsings>
+        <Nullable>disable</Nullable> <!--Makes code analysis regarding null values stricter.-->
+        <Publicize>True</Publicize> <!--Allows access to originally private/protected members but may (unlikely to) cause errors.-->
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+        <AppOutputBase>$(MSBuildProjectDirectory)\</AppOutputBase>
+        <PathMap>$(AppOutputBase)=.\</PathMap>
+        <GodotDisabledSourceGenerators>GodotPluginsInitializer</GodotDisabledSourceGenerators>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <!-- Diasble architecture mismatch warning; mods are ideally built for all platforms (MSIL)
+             while your local StS2 version will be for your specific platform. -->
+        <NoWarn>$(NoWarn);MSB3270</NoWarn>
+    </PropertyGroup>
+
+    <!-- 鍙岀増鏈紩鐢細浼樺厛鐢?_tools\refs\sts2-<target> 閲屽喕缁撶殑 dll锛岄伩鍏嶅垏娓告垙鍒嗘敮鍚庣紪涓嶄簡鍙︿竴涓増鏈?-->
+    <PropertyGroup>
+        <SubaruRefDir>$(MSBuildProjectDirectory)\..\..\_tools\refs\sts2-$(SubaruTarget)</SubaruRefDir>
+    </PropertyGroup>
+
+    <ItemGroup Condition="Exists('$(SubaruRefDir)\sts2.dll')">
+        <Reference Include="0Harmony">
+            <HintPath>$(SubaruRefDir)\0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="sts2">
+            <HintPath>$(SubaruRefDir)\sts2.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup Condition="!Exists('$(SubaruRefDir)\sts2.dll') And Exists('$(Sts2DataDir)')" >
+        <Reference Include="0Harmony">
+            <HintPath>$(Sts2DataDir)/0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="sts2">
+            <HintPath>$(Sts2DataDir)/sts2.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup Condition="$(Publicize)">
+        <PackageReference Include="Krafs.Publicizer" Version="2.3.0" PrivateAssets="All"/>
+        <Publicize Include="sts2" IncludeVirtualMembers="false" IncludeCompilerGeneratedMembers="false" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Alchyr.Sts2.BaseLib" Version="*" PrivateAssets="All"/>
+        <PackageReference Include="Alchyr.Sts2.ModAnalyzers" Version="*" />
+        <!-- Generates a .pck file when building if only using simple assets. May not work on all setups. Uncomment to test. -->
+        <!-- <PackageReference Include="BSchneppe.StS2.PckPacker" Version="0.1.1" PrivateAssets="All" /> -->
+        <AdditionalFiles Include="Subaru/localization/**/*.json"/> <!-- Used by analyzer -->
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Remove="Subaru/**" />
+        <Compile Remove="materials/**" />
+        <Compile Remove="shaders/**" />
+        <Compile Remove="images/**" />
+        <EmbeddedResource Remove="Subaru/**" />
+        <EmbeddedResource Remove="materials/**" />
+        <EmbeddedResource Remove="shaders/**" />
+        <EmbeddedResource Remove="images/**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Condition="Exists('Directory.Build.props')" Include="Directory.Build.props"/>
+        <None Include=".gitignore" />
+        <None Include="Subaru.json" />
+        <None Include="project.godot"/>
+        <None Include="Subaru/**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Subaru\images\card_portraits\big\" />
+      <Folder Include="Subaru\images\powers\big\" />
+      <Folder Include="Subaru\images\relics\big\" />
+    </ItemGroup>
+    
+    <Target Name="CheckDependencyPaths" >
+        <Error
+                Text=" Slay the Spire 2 data not found at path '$(Sts2DataDir)'"
+                Condition="'$(Sts2DataDir)' == '' or !Exists('$(Sts2DataDir)')" />
+    </Target>
+
+    <Target Name="UpdateDependencyVersions" BeforeTargets="BeforeBuild" Condition="Exists('.godot/mono/temp/obj/project.assets.json')">
+        <PropertyGroup>
+            <ManifestPath>$(MSBuildProjectName).json</ManifestPath>
+        </PropertyGroup>
+
+        <PropertyGroup>
+            <NuGetData>$([System.IO.File]::ReadAllText(".godot/mono/temp/obj/project.assets.json"))</NuGetData>
+            <ActiveBaseLibVersion>$([System.Text.RegularExpressions.Regex]::Match($(NuGetData), '"Alchyr.Sts2.BaseLib\/([^"]*)').Result('$1'))</ActiveBaseLibVersion>
+            <OldContent>$([System.IO.File]::ReadAllText($(ManifestPath)))</OldContent>
+            <NewContent>$([System.Text.RegularExpressions.Regex]::Replace($(OldContent), '("id":\s*"BaseLib",\s*"min_version":\s*")[^"]*', '${1}$(ActiveBaseLibVersion)'))</NewContent>
+        </PropertyGroup>
+
+        <WriteLinesToFile
+                Condition="'$(OldContent)' != '$(NewContent)'"
+                File="$(ManifestPath)"
+                Lines="$(NewContent)"
+                Overwrite="true"
+                Encoding="UTF-8" />
+
+        <Message Condition="'$(OldContent)' != '$(NewContent)'"
+                 Text="Updated BaseLib dependency version in mod manifest json to version $(BaseLibVersion)"
+                 Importance="high" />
+    </Target>
+    
+    <Target Name="CopyToModsFolderOnBuild" AfterTargets="PostBuildEvent">
+        <Message Text="Copying .dll .pdb and .json to mods folder." Importance="high" />
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModsPath)$(MSBuildProjectName)/" />
+        <Copy SourceFiles="$(AssemblyName).json" DestinationFolder="$(ModsPath)$(MSBuildProjectName)/" />
+        <Copy SourceFiles="$(TargetDir)$(TargetName).pdb" DestinationFolder="$(ModsPath)$(MSBuildProjectName)/" />
+    </Target>
+
+    <Target Name="CopyQuickPck" AfterTargets="PackPck" Condition="Exists('$(PckPackerOutputPath)') And '$(PckPackerSkipped)' != 'true'">
+        <Message Text="Copying quick .pck to mods folder." Importance="high"/>
+        <Copy SourceFiles="$(PckPackerOutputPath)"
+              DestinationFolder="$(ModsPath)/$(MSBuildProjectName)" />
+    </Target>
+    
+    <Target Name="NeedGodotForPublish" BeforeTargets="Publish">
+        <Error Text=" Godot path must be set up before publishing; Godot not found at path '$(GodotPath)'. Check Directory.Build.props file."
+               Condition="'$(GodotPath)' == '' or !Exists('$(GodotPath)')"/>
+    </Target>
+    
+    <Target Name="GodotPublish" AfterTargets="Publish" Condition="'$(GodotPath)' != '' and Exists('$(GodotPath)') and '$(IsInnerGodotExport)' != 'true'">
+        <Message Text="Exporting Godot .pck to mods folder" Importance="high"/>
+        <Exec Command="&quot;$(GodotPath)&quot; --headless --export-pack &quot;BasicExport&quot; &quot;$(ModsPath)$(MSBuildProjectName)/$(MSBuildProjectName).pck&quot;"
+              EnvironmentVariables="IsInnerGodotExport=true;MSBUILDDISABLENODEREUSE=1;DOTNET_ROOT=$(DotnetRoot)"
+              ContinueOnError="WarnAndContinue"/>
+    </Target>
+</Project>

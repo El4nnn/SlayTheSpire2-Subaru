@@ -1,0 +1,19 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=7 format=3]
+
+[ext_resource type="SpineAtlasResource" path="res://Subaru/animations/characters/subaru_spell/subaru_spell.atlas" id="1_atlas"]
+[ext_resource type="SpineSkeletonFileResource" path="res://Subaru/animations/characters/subaru_spell/subaru_spell.spine-json" id="2_skel"]
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_emerge"]
+from = "emerge"
+to = "emerge"
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_fly"]
+from = "fly"
+to = "fly"
+
+
+[resource]
+atlas_res = ExtResource("1_atlas")
+skeleton_file_res = ExtResource("2_skel")
+default_mix = 0.03
+animation_mixes = [SubResource("SpineAnimationMix_emerge"), SubResource("SpineAnimationMix_fly")]

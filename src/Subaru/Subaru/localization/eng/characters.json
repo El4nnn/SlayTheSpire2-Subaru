@@ -1,0 +1,17 @@
+{
+  "SUBARU-SUBARU.title": "Subaru Natsuki",
+  "SUBARU-SUBARU.titleObject": "Subaru Natsuki",
+  "SUBARU-SUBARU.description": "An ordinary high schooler on leave from school, summoned to another world, he swore to kill the Witch with his own hands…",
+  "SUBARU-SUBARU.unlockText": "Play a run as the [gold]Fool[/gold] to unlock.",
+  "SUBARU-SUBARU.pronounSubject": "he",
+  "SUBARU-SUBARU.pronounObject": "him",
+  "SUBARU-SUBARU.pronounPossessive": "his",
+  "SUBARU-SUBARU.possessiveAdjective": "his",
+  "SUBARU-SUBARU.goldMonologue": "[TODO] Monologue when gaining a large amount of gold.",
+  "SUBARU-SUBARU.eventDeathPrevention": "[TODO] Line for preventing an ally's death in multiplayer.",
+  "SUBARU-SUBARU.aromaPrinciple": "[TODO] Text for the Aroma of Chaos event.",
+  "SUBARU-SUBARU.cardsModifierTitle": "Subaru's Cards",
+  "SUBARU-SUBARU.cardsModifierDescription": "Subaru's cards now appear in rewards and shops.",
+  "SUBARU-SUBARU.banter.alive.endTurnPing": "[TODO] Urging an ally to end their turn.",
+  "SUBARU-SUBARU.banter.dead.endTurnPing": "..."
+}

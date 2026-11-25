@@ -1,0 +1,44 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+    <!--
+      Subaru 的「多版本引导器」：产物是一个很小的 Subaru.dll（约 20KB），
+      放在工坊包根目录；游戏加载它、调用它的 [ModInitializer]，
+      它再按当前游戏版本从 lib/release 或 lib/beta 里挑真正的 Subaru.dll 加载。
+
+      结构照 naiwa（3765203639）：
+        Subaru.dll                      ← 本工程产物（shim）
+        Subaru.pck                      ← 两边共用
+        Subaru-variants.manifest        ← 变体清单
+        lib/release/Subaru.dll          ← SubaruTarget=release 构建
+        lib/beta/Subaru.dll             ← SubaruTarget=beta 构建
+
+      编译用「旧的那套」引用（sts2-release），保证 shim 在新旧两个版本上都能跑。
+    -->
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <AssemblyName>Subaru.Variants</AssemblyName>
+        <RootNamespace>SubaruVariants</RootNamespace>
+        <!-- 注意：程序集名必须和真 Subaru.dll 不同，否则同一个 ALC 里同名程序集会撞身份 -->
+        <ImplicitUsings>false</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <EnableDynamicLoading>true</EnableDynamicLoading>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GodotDisabledSourceGenerators>GodotPluginsInitializer</GodotDisabledSourceGenerators>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <SubaruRefDir>$(MSBuildProjectDirectory)\..\..\_tools\refs\sts2-release</SubaruRefDir>
+    </PropertyGroup>
+
+    <ItemGroup Condition="Exists('$(SubaruRefDir)\sts2.dll')">
+        <Reference Include="sts2">
+            <HintPath>$(SubaruRefDir)\sts2.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Remove="bin/**" />
+        <Compile Remove="obj/**" />
+    </ItemGroup>
+</Project>

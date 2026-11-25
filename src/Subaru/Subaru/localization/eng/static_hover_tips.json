@@ -1,0 +1,22 @@
+{
+  "SUBARU-GREED_PROMPT.text": "Choose up to 2 cards to [gold]Retain[/gold]",
+  "SUBARU-PICK_CARD.text": "Choose from your draw pile",
+  "SUBARU-PUT_BACK.text": "Put back on top of your draw pile",
+  "SUBARU-COPY_CARD.text": "Copy this card",
+  "SUBARU-REMOVE_CURSE.text": "Choose Status or Curse cards to Exhaust",
+  "SUBARU-DREAM_PROMPT.text": "Choose cards to Exhaust (each deals damage to ALL enemies)",
+  "SUBARU-STATUS_LOLIMANCER": "Lolimancer: at the start of each turn, choose 1 of [E·M·T] and [E·M·M] to add to your hand, then lose 1 stack.",
+  "SUBARU-STATUS_MADNESS": "Madness: Energy -1, play at most 3 cards per turn, Return by Death is disabled. When gained, each stack also grants 1 [gold]Vulnerable[/gold].",
+  "SUBARU-STATUS_FRAGRANCE": "[gold]Witch's Scent[/gold]: each stack increases damage you take by 1%. Every Return by Death adds more.",
+  "SUBARU-STATUS_FLOAT": "Float: each stack halves damage you take.",
+  "SUBARU-STATUS_MIASMA": "[gold]Witch Miasma[/gold]: Curse. Unplayable, [gold]Retain[/gold]. Lose 1 HP at end of turn while it is in your hand. Each Return by Death grants 20 [gold]Witch's Scent[/gold].",
+  "SUBARU-STATUS_PRIDE": "[gold]Pride[/gold]: the stacks you carry. Granted by your starter relic at combat start; each Return by Death also grants Strength and Dexterity (Sin Archbishop of Pride grants more).",
+  "SUBARU-STATUS_SLOTH_FACTOR": "[gold]Sloth Factor[/gold]: at the start of each turn, add 1 [True Unseen Providence] to your hand.",
+  "SUBARU-STATUS_GREED_CONTRACT": "[gold]Greed Contract[/gold]: turn start +1 Energy and draw 1. Turn end: [gold]Retain[/gold] up to 2 cards and gain 10 [gold]Witch's Scent[/gold].",
+  "SUBARU-STATUS_BEATRICE": "[gold]Beatrice[/gold]: a present state. Only cards with [Beatrice] can be played, and some of them cost 0.",
+  "SUBARU-BASIC_MAGIC_PROMPT.text": "Choose a [gold]Basic Magic[/gold] card to add to your hand",
+  "SUBARU-STATUS_REWIND.text": "[gold]Return by Death[/gold]: when you die, return to the savepoint (the start of combat, or the turn set by Lost). Every return adds [gold]Witch's Scent[/gold] and [gold]Witch Miasma[/gold].",
+  "SUBARU-STATUS_BASIC_MAGIC.text": "[gold]Basic Magic[/gold]: only created by [gold]Court Jester[/gold]. Costs 0 and is [gold]Ethereal[/gold]; each element resolves its own effect.",
+  "SUBARU-STATUS_STUN.text": "[gold]Stun[/gold]: the enemy cannot act on its next turn.",
+  "SUBARU-STATUS_UNBLOCKABLE.text": "[gold]Unblockable[/gold]: damage that ignores [gold]Block[/gold] and is dealt directly to HP."
+}

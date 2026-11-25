@@ -1,0 +1,16 @@
+{
+  "SUBARU-AUTHORITY.title": "Authority",
+  "SUBARU-AUTHORITY.description": "On play, gain N stacks of [gold]Witch's Scent[/gold]. N is shown on the card.",
+  "SUBARU-CORROSION.title": "Corrosion",
+  "SUBARU-CORROSION.description": "Can only be played once per combat. If [gold]Return by Death[/gold] triggers after it is played, this card is removed from this combat (it returns to your deck afterwards), but the powers it granted do not reset.",
+  "SUBARU-YIN_MAGIC.title": "Yin Magic",
+  "SUBARU-YIN_MAGIC.description": "While Beatrice is present, the first [gold]Yin Magic[/gold] card you play each turn costs 1 less.",
+  "SUBARU-NINE_GENERALS.title": "Imperial Army",
+  "SUBARU-NINE_GENERALS.description": "After you play a [gold]Imperial Army[/gold] card this turn, the next [gold]Imperial Army[/gold] card costs 1 less this turn.",
+  "SUBARU-CORPSE_SOLDIER.title": "Corpse Soldier",
+  "SUBARU-CORPSE_SOLDIER.description": "A corpse soldier of the [gold]Great Calamity[/gold]. Effects such as Sphinx pick one at random from [gold]Corpse Soldiers[/gold].",
+  "SUBARU-CONTRACT.title": "Contract",
+  "SUBARU-CONTRACT.description": "At the start of combat, placed at the bottom of your draw pile. After the first turn's draw, it is put into your hand; it does not take an opening-hand slot.",
+  "SUBARU-WITCH_CURSE.title": "Witch's Curse",
+  "SUBARU-WITCH_CURSE.description": "Unplayable and retained. Cannot be discarded, exhausted or removed from combat by other effects (effects that name [gold]Witch Miasma[/gold] still work)."
+}

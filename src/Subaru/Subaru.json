@@ -1,0 +1,21 @@
+{
+  "id": "Subaru",
+  "name": "Subaru",
+  "author": "LinnX11",
+  "description": "Re:Zero 菜月昴角色：死归 / 权能 / 魔女遗香体系。仅兼容抢先体验版（β）0.113.x，正式版未适配。",
+  "version": "0.3.39",
+  "min_game_version": "0.113.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {
+      "id": "BaseLib",
+      "min_version": "3.4.8"
+    },
+    {
+      "id": "STS2-RitsuLib",
+      "min_version": "0.5.13"
+    }
+  ],
+  "affects_gameplay": true
+}

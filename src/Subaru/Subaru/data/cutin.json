@@ -1,0 +1,5658 @@
+{
+  "shaula": {
+    "image": "shaula",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#8c3b10",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 28,
+        "dy": 6,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0b0b10",
+        "width": 5.0,
+        "fillAlpha": 0.45,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#e07826",
+        "width": 4.0,
+        "fillAlpha": 0.85,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#1a0f14",
+      "alpha": 0.35,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 260,
+      "holdMs": 620,
+      "outMs": 200,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 7.0,
+    "flashAlpha": 0.34
+  },
+  "yae": {
+    "image": "yae",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#8e2434",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#170a12",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#e0546b",
+        "width": 4.0,
+        "fillAlpha": 0.85,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#160a10",
+      "alpha": 0.36,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 240,
+      "holdMs": 580,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.32
+  },
+  "beatrice": {
+    "image": "beatrice",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#3a1e4a",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0a0710",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#8a63e0",
+        "width": 4.0,
+        "fillAlpha": 0.72,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#160b20",
+      "alpha": 0.34,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "vincent": {
+    "image": "vincent",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#3a0d16",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0d0508",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#8e1c2b",
+        "width": 4.0,
+        "fillAlpha": 0.85,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#140609",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "sphinx": {
+    "image": "sphinx",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a1030",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0d0710",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#7d3fa6",
+        "width": 4.0,
+        "fillAlpha": 0.8,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#120716",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "echidna": {
+    "image": "echidna",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#0b2b22",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#04120c",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#1f6b47",
+        "width": 4.0,
+        "fillAlpha": 0.85,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#08130e",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "otto": {
+    "image": "otto",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#0d2f1e",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#04120b",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#1f6b3f",
+        "width": 4.0,
+        "fillAlpha": 0.85,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#07130c",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "reinhard": {
+    "image": "reinhard",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#4a0e12",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#140407",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#c9302c",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#160608",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "reid": {
+    "image": "reid",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#5a1208",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#1a0603",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#e0552f",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#1a0604",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "sworddemon": {
+    "image": "sworddemon",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#141a20",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#05080b",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#5a6b7d",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#080b0f",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "kishia": {
+    "image": "kishia",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#3d1030",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#150410",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#c04a9e",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#13040f",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "yonaki": {
+    "image": "yonaki",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#33102e",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#12060f",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#8a2f7a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#12060f",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "cecilus": {
+    "image": "cecilus",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#0e1a33",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#060a14",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#2f6fe0",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#070b16",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "sekhmet": {
+    "image": "sekhmet",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a0d26",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#12040f",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#9b2f7d",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#12050f",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "daphne": {
+    "image": "daphne",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a1f3a",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#100a18",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#6b5a8f",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0d0814",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "minerva": {
+    "image": "minerva",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#3a2a08",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#14100a",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#c9962e",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#120e06",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "carmilla": {
+    "image": "carmilla",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#0a1f1d",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#050f0e",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#1e5551",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#07100f",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "typhon": {
+    "image": "typhon",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#0a2830",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#04121a",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#1d4f8f",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#050f16",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "pandora": {
+    "image": "pandora",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#16203c",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#080d1a",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#34406b",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#070a12",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "hector": {
+    "image": "hector",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#1c1224",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0b0710",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#4a2a52",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0a0610",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "arakiya": {
+    "image": "arakiya",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#0a2830",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#041218",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#1f8f9f",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#05100f",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "orbart": {
+    "image": "orbart",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a1f0a",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0f0a04",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#8a6a2a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0d0905",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "gotz": {
+    "image": "gotz",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#1a0a10",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0a0406",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#5a1f2a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#08040a",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "gurobi": {
+    "image": "gurobi",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#231408",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0d0703",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#7a5230",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0a0604",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "moguro": {
+    "image": "moguro",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a1614",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#150b08",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#5f6b22",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#120d08",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "ballroy": {
+    "image": "ballroy",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a1a10",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#150c07",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#6b3f22",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#120b06",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "madeleine": {
+    "image": "madeleine",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a0f18",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#150508",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#8e3a5f",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#12070a",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "puck": {
+    "image": "puck",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#7b8593",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0e1118",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#a678d2",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0c0f14",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "sloth": {
+    "image": "sloth",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#43284f",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#150a18",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#c8325a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0e0710",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "regulus": {
+    "image": "regulus",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#4a4a86",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0d0d16",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#33408f",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0a0a11",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "sirius": {
+    "image": "sirius",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#43295e",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#14101c",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#b0455c",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0f0a14",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "ley": {
+    "image": "ley",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#3f3f4a",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#131218",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#9c2f47",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0e0b10",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "eclipse": {
+    "image": "eclipse",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#5c4a2c",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#171208",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#e09a3e",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#120d08",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "capella": {
+    "image": "capella",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#4d3560",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#140f18",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#c04a7a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#120a10",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "pride": {
+    "image": "pride",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#3a2a4e",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#130f18",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#7a4fb0",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0f0b14",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "elsa": {
+    "image": "elsa",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a1f2e",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#120e14",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#8a4a86",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#100a10",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "meili": {
+    "image": "meili",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2b2a3c",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0f1018",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#6d74c0",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0b0b12",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "volcanica": {
+    "image": "volcanica",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a3348",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0c1018",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#4a6fb0",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#080b12",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "julius": {
+    "image": "julius",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#3a3050",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#12101a",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#8f7ad0",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0f0c16",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "felix": {
+    "image": "felix",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a3350",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0c1018",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#3b6fc4",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0a0e16",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "crusch": {
+    "image": "crusch",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#1f2f2a",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0b1210",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#2f6b4f",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#090f0c",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "priscilla": {
+    "image": "priscilla",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#301a1c",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#140a0a",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#c2552a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#100807",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "emilia": {
+    "image": "emilia",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2e2742",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0d0b14",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#6a4aa8",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0a0910",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "ram": {
+    "image": "ram",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2e2230",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#100c12",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#c25f8a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0b0910",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "theresia": {
+    "image": "theresia",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2e1a20",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#140a0e",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#b02a44",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#100709",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "mimi": {
+    "image": "mimi",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#3a2c1e",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#14100a",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#d9a03a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0f0b06",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "roswaal": {
+    "image": "roswaal",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#33224a",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#120a18",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#a067d0",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0e0816",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "liliana": {
+    "image": "liliana",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#4a3318",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#150f08",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#dfa63a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#110c07",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "yugard": {
+    "image": "yugard",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#3d1216",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#150608",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#b3222e",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#12060a",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "librey": {
+    "image": "librey",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#16302a",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#070f0d",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#2f8f6a",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#06100c",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "celestia": {
+    "image": "celestia",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2b2b30",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0c0e0c",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#6ec832",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#080c08",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "kafma": {
+    "image": "kafma",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a2a24",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0a0c06",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#4f8f2f",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#070a05",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "kulgan": {
+    "image": "kulgan",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#1e2440",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#080a14",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#4a63cc",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#06070e",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "luan": {
+    "image": "luan",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#1c1a20",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#0a090c",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#cfa634",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#08070a",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "lamia": {
+    "image": "lamia",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a1418",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#100608",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#a63430",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0c0406",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  },
+  "todd": {
+    "image": "todd",
+    "band": {
+      "width": 0.58,
+      "height": 0.98,
+      "x": 0.0,
+      "y": 0.5,
+      "angle": 0.0
+    },
+    "layers": {
+      "silhouette": {
+        "on": true,
+        "color": "#2a1a1e",
+        "alpha": 0.85,
+        "scale": 1.02,
+        "dx": 26,
+        "dy": 5,
+        "speed": 1.35,
+        "delayMs": 55.0,
+        "outSpeed": 1.1,
+        "outDelayMs": 10.0
+      },
+      "frameA": {
+        "color": "#120608",
+        "width": 5.0,
+        "fillAlpha": 0.42,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 1.0,
+        "dx": 0.0,
+        "corners": {
+          "leftTop": -0.03,
+          "leftBottom": 0.03,
+          "rightTop": 0.05,
+          "rightBottom": -0.01
+        },
+        "speed": 0.85,
+        "delayMs": 0.0,
+        "outSpeed": 0.95,
+        "outDelayMs": 0.0,
+        "strokeDelayMs": 0.0
+      },
+      "frameB": {
+        "color": "#c02a3e",
+        "width": 4.0,
+        "fillAlpha": 0.82,
+        "fillGradient": {
+          "on": false,
+          "to": 0.0,
+          "dir": "x"
+        },
+        "glow": 0.0,
+        "scale": 0.78,
+        "dx": 64.0,
+        "corners": {
+          "leftTop": 0.06,
+          "leftBottom": -0.04,
+          "rightTop": 0.06,
+          "rightBottom": -0.04
+        },
+        "speed": 1.05,
+        "delayMs": 30.0,
+        "outSpeed": 1.0,
+        "outDelayMs": 20.0,
+        "strokeDelayMs": 0.0
+      },
+      "portrait": {
+        "scale": 1.0,
+        "offsetY": 0.0,
+        "clip": false,
+        "speed": 1.55,
+        "delayMs": 70.0,
+        "outSpeed": 1.2,
+        "outDelayMs": 0.0
+      }
+    },
+    "veil": {
+      "on": true,
+      "color": "#0e0508",
+      "alpha": 0.38,
+      "hole": "B",
+      "fadeInMs": 120.0,
+      "fadeOutMs": 140.0
+    },
+    "timing": {
+      "inMs": 250,
+      "holdMs": 700,
+      "outMs": 220,
+      "hitAt": 0.72,
+      "easeIn": "outCubic",
+      "easeOut": "inCubic"
+    },
+    "showText": false,
+    "layer": "behindCreatures",
+    "shakePx": 6.5,
+    "flashAlpha": 0.34
+  }
+}

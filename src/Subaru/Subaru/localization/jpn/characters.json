@@ -1,0 +1,17 @@
+{
+  "SUBARU-SUBARU.title": "ナツキ・スバル",
+  "SUBARU-SUBARU.titleObject": "ナツキ・スバル",
+  "SUBARU-SUBARU.description": "休学中の普通の高校生。異世界に召喚され、魔女をこの手で殺すと誓う……",
+  "SUBARU-SUBARU.unlockText": "[gold]愚者[/gold]で1回プレイすると解放される。",
+  "SUBARU-SUBARU.pronounSubject": "彼",
+  "SUBARU-SUBARU.pronounObject": "彼",
+  "SUBARU-SUBARU.pronounPossessive": "彼の",
+  "SUBARU-SUBARU.possessiveAdjective": "彼の",
+  "SUBARU-SUBARU.goldMonologue": "[TODO] 大量のゴールドを得たときのモノローグ。",
+  "SUBARU-SUBARU.eventDeathPrevention": "[TODO] マルチプレイで味方の死亡を防いだときの台詞。",
+  "SUBARU-SUBARU.aromaPrinciple": "[TODO] Aroma of Chaos イベントのテキスト。",
+  "SUBARU-SUBARU.cardsModifierTitle": "ナツキ・スバルのカード",
+  "SUBARU-SUBARU.cardsModifierDescription": "ナツキ・スバルのカードが報酬とショップに出現するようになる。",
+  "SUBARU-SUBARU.banter.alive.endTurnPing": "[TODO] 味方にターン終了を促す。",
+  "SUBARU-SUBARU.banter.dead.endTurnPing": "..."
+}

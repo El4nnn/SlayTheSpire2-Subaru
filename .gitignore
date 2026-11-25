@@ -1,0 +1,26 @@
+# 构建产物 / 本地环境（不进仓库）
+dist/
+release/
+_tools/
+_assets/
+_assets_work/
+_anim/
+_downloads/
+preview/
+viewer/
+.tmp/
+.nuget/
+pip-*/
+dsh-todo-table/
+
+# 本地脚本与日志
+*.log
+shot_*.png
+抠图.bat
+mod-uploader.log
+
+# 汇编/系统杂项
+Thumbs.db
+desktop.ini
+.vs/
+.idea/

@@ -1,0 +1,22 @@
+{
+  "SUBARU-GREED_PROMPT.text": "选择最多 2 张牌使其[gold]保留[/gold]",
+  "SUBARU-PICK_CARD.text": "从抽牌堆选择",
+  "SUBARU-PUT_BACK.text": "放回抽牌堆顶",
+  "SUBARU-COPY_CARD.text": "复制这张牌",
+  "SUBARU-REMOVE_CURSE.text": "选择要消耗的状态牌或诅咒牌",
+  "SUBARU-DREAM_PROMPT.text": "选择要消耗的手牌（每张对全体敌人造成伤害）",
+  "SUBARU-STATUS_LOLIMANCER": "幼女使者：每回合开始时，从 [E·M·T] 与 [E·M·M] 中选择 1 张加入手牌，然后层数 -1。",
+  "SUBARU-STATUS_MADNESS": "癫狂：能量 -1，每回合最多打出 3 张牌，死归失效；获得时每层附带 1 层[gold]易伤[/gold]。",
+  "SUBARU-STATUS_FRAGRANCE": "[gold]魔女遗香[/gold]：每层使你受到的伤害 +1%。每次死归都会累积它。",
+  "SUBARU-STATUS_FLOAT": "浮空：每层使你受到的伤害减半。",
+  "SUBARU-STATUS_MIASMA": "[gold]魔女瘴气[/gold]：诅咒牌，不能打出、[gold]保留[/gold]；在手牌中回合结束失去 1 点生命；每次死归获得 20 层[gold]魔女遗香[/gold]。",
+  "SUBARU-STATUS_PRIDE": "[gold]傲慢[/gold]：你身负的层数。战斗开始时由初始遗物给予；每次死归后额外获得力量与敏捷（傲慢司教另有加成）。",
+  "SUBARU-STATUS_SLOTH_FACTOR": "[gold]怠惰因子[/gold]：每回合开始时，将 1 张[真·不可视之神意]加入手牌。",
+  "SUBARU-STATUS_GREED_CONTRACT": "[gold]强欲的契约[/gold]：每回合开始 +1 能量并抽 1 张牌；每回合结束可让最多 2 张手牌[gold]保留[/gold]，并获得 10 层[gold]魔女遗香[/gold]。",
+  "SUBARU-STATUS_BEATRICE": "[gold]贝蒂[/gold]：在场状态。带[贝蒂]词条的牌才能打出，部分牌[gold]耗能[/gold]变为0。",
+  "SUBARU-BASIC_MAGIC_PROMPT.text": "选择一张[gold]基础魔法[/gold]加入手牌",
+  "SUBARU-STATUS_REWIND.text": "[gold]死归[/gold]：死亡后回到存档点（战斗开始，或被「迷失」重设的那个回合）。每次死归都会累积 [gold]魔女遗香[/gold] 与 [gold]魔女瘴气[/gold]。",
+  "SUBARU-STATUS_BASIC_MAGIC.text": "[gold]基础魔法[/gold]：只能由 [gold]宫廷小丑[/gold] 生成。0 费、[gold]虚无[/gold]，打出后按所属元素生效。",
+  "SUBARU-STATUS_STUN.text": "[gold]击晕[/gold]：该敌人在其下一回合无法行动。",
+  "SUBARU-STATUS_UNBLOCKABLE.text": "[gold]不可被抵挡[/gold]：不会被[gold]格挡[/gold]减免，直接扣除生命值。"
+}

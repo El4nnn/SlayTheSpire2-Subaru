@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://582784w417gr"
+path="res://.godot/imported/subaru_spell.atlas-d89a1a4d858b98350d9991eb7e2a9034.spatlas"
+
+[deps]
+
+source_file="res://Subaru/animations/characters/subaru_spell/subaru_spell.atlas"
+dest_files=["res://.godot/imported/subaru_spell.atlas-d89a1a4d858b98350d9991eb7e2a9034.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

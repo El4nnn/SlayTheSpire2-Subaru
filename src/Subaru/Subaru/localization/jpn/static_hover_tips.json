@@ -1,0 +1,22 @@
+{
+  "SUBARU-GREED_PROMPT.text": "最大2枚のカードを選んで[gold]保留[/gold]させる",
+  "SUBARU-PICK_CARD.text": "山札から選ぶ",
+  "SUBARU-PUT_BACK.text": "山札の一番上に戻す",
+  "SUBARU-COPY_CARD.text": "このカードを複製する",
+  "SUBARU-REMOVE_CURSE.text": "廃棄する状態カードまたは呪いカードを選ぶ",
+  "SUBARU-DREAM_PROMPT.text": "廃棄する手札を選ぶ（1枚ごとにすべての敵へダメージ）",
+  "SUBARU-STATUS_LOLIMANCER": "ロリマンサー：毎ターン開始時、[E・M・T]と[E・M・M]から1枚を選んで手札に加え、スタックが1減る。",
+  "SUBARU-STATUS_MADNESS": "狂気：エナジー-1、毎ターン最大3枚まで、死に戻り無効。獲得時に1スタックにつき[gold]弱体[/gold]1スタック。",
+  "SUBARU-STATUS_FRAGRANCE": "[gold]魔女の残り香[/gold]：1スタックごとに受けるダメージが+1%。死に戻りのたびに蓄積する。",
+  "SUBARU-STATUS_FLOAT": "浮遊：1スタックごとに受けるダメージが半減する。",
+  "SUBARU-STATUS_MIASMA": "[gold]魔女の瘴気[/gold]：呪いカード。使用できず[gold]保留[/gold]。手札にあるとターン終了時にHPを1失う。死に戻りのたびに[gold]魔女の残り香[/gold]を20スタック得る。",
+  "SUBARU-STATUS_PRIDE": "[gold]傲慢[/gold]：身に宿っているスタック数。戦闘開始時に初期レリックから付与され、死に戻りのたびに追加で筋力と敏捷を得る（傲慢司教はさらに追加）。",
+  "SUBARU-STATUS_SLOTH_FACTOR": "[gold]怠惰の因子[/gold]：毎ターン開始時、[真・不可視の神意]を1枚手札に加える。",
+  "SUBARU-STATUS_GREED_CONTRACT": "[gold]強欲の契約[/gold]：毎ターン開始時に+1エナジーと1枚ドロー。毎ターン終了時、最大2枚を[gold]保留[/gold]させ、[gold]魔女の残り香[/gold]を10スタック得る。",
+  "SUBARU-STATUS_BEATRICE": "[gold]ベアトリス[/gold]：在场ステート。[ベアトリス]タグのカードのみ使用でき、一部カードのコストが0になる。",
+  "SUBARU-BASIC_MAGIC_PROMPT.text": "[gold]基礎魔法[/gold]を1枚選んで手札に加える",
+  "SUBARU-STATUS_REWIND.text": "[gold]死に戻り[/gold]：死亡するとセーブポイント（戦闘開始時、または「迷い」で再設定したターン）へ戻る。戻るたびに[gold]魔女の残り香[/gold]と[gold]魔女の瘴気[/gold]が蓄積する。",
+  "SUBARU-STATUS_BASIC_MAGIC.text": "[gold]基礎魔法[/gold]：[gold]宮廷道化師[/gold]のみが生成できる。コスト0、[gold]エセリアル[/gold]、使用すると属性に応じた効果を発揮する。",
+  "SUBARU-STATUS_STUN.text": "[gold]スタン[/gold]：その敵は次のターン行動できない。",
+  "SUBARU-STATUS_UNBLOCKABLE.text": "[gold]ブロックできない[/gold]：相手の[gold]ブロック[/gold]を無視して直接HPに与えるダメージ。"
+}

@@ -1,0 +1,16 @@
+{
+  "SUBARU-AUTHORITY.title": "权能",
+  "SUBARU-AUTHORITY.description": "打出后增加 N 层[gold]魔女遗香[/gold]。N 见卡面上的数字。",
+  "SUBARU-CORROSION.title": "腐蚀",
+  "SUBARU-CORROSION.description": "整场战斗只能打出一次。打出后若触发[gold]死归[/gold]，这张牌从本场战斗移除（战斗结束后回到牌组）；但它授予的能力不随死归重置。",
+  "SUBARU-YIN_MAGIC.title": "阴魔法",
+  "SUBARU-YIN_MAGIC.description": "贝蒂在场时，你每回合打出的第一张[gold]阴魔法[/gold][gold]耗能[/gold]减少1。",
+  "SUBARU-NINE_GENERALS.title": "帝国军",
+  "SUBARU-NINE_GENERALS.description": "本回合打出[gold]帝国军[/gold]后，本回合下一张[gold]帝国军[/gold][gold]耗能[/gold]减少1。",
+  "SUBARU-CORPSE_SOLDIER.title": "尸兵",
+  "SUBARU-CORPSE_SOLDIER.description": "属于[gold]大灾[/gold]的尸兵。斯芬克斯等效果会从[gold]尸兵[/gold]里随机取一张。",
+  "SUBARU-CONTRACT.title": "契约",
+  "SUBARU-CONTRACT.description": "战斗开始时置于抽牌堆最底；第一回合抽牌结束后进入手牌，不占起手抽牌位。",
+  "SUBARU-WITCH_CURSE.title": "魔女的诅咒",
+  "SUBARU-WITCH_CURSE.description": "不可打出；保留；不会被其他效果丢弃、消耗或移出战斗（明确指名[gold]魔女瘴气[/gold]的效果除外）。"
+}

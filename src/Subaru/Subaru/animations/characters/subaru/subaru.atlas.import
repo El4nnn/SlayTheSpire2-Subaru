@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://diw5yoraqdj3r"
+path="res://.godot/imported/subaru.atlas-b116e12165803ed71e10bee2a996d903.spatlas"
+
+[deps]
+
+source_file="res://Subaru/animations/characters/subaru/subaru.atlas"
+dest_files=["res://.godot/imported/subaru.atlas-b116e12165803ed71e10bee2a996d903.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

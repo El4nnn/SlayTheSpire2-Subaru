@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="SpineSkeletonDataResource" path="res://Subaru/animations/characters/subaru_spell/subaru_spell_skel_data.tres" id="1_skel"]
+
+[node name="SpellBullet" type="Node2D"]
+
+[node name="Visuals" type="SpineSprite" parent="."]
+unique_name_in_owner = true
+skeleton_data_res = ExtResource("1_skel")
+position = Vector2(80.64, 0)
+scale = Vector2(1, 1)

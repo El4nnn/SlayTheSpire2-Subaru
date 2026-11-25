@@ -1,0 +1,35 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=8 format=3]
+
+[ext_resource type="SpineAtlasResource" path="res://Subaru/animations/characters/subaru/subaru.atlas" id="1_atlas"]
+[ext_resource type="SpineSkeletonFileResource" path="res://Subaru/animations/characters/subaru/subaru.spine-json" id="2_skel"]
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_attack"]
+from = "attack"
+to = "attack"
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_cast"]
+from = "cast"
+to = "cast"
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_die"]
+from = "die"
+to = "die"
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_idle_loop"]
+from = "idle_loop"
+to = "idle_loop"
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_low_health_loop"]
+from = "low_health_loop"
+to = "low_health_loop"
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_relaxed_loop"]
+from = "relaxed_loop"
+to = "relaxed_loop"
+
+
+[resource]
+atlas_res = ExtResource("1_atlas")
+skeleton_file_res = ExtResource("2_skel")
+default_mix = 0.05
+animation_mixes = [SubResource("SpineAnimationMix_attack"), SubResource("SpineAnimationMix_cast"), SubResource("SpineAnimationMix_die"), SubResource("SpineAnimationMix_idle_loop"), SubResource("SpineAnimationMix_low_health_loop"), SubResource("SpineAnimationMix_relaxed_loop")]

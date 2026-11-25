@@ -1,0 +1,17 @@
+{
+  "SUBARU-SUBARU.title": "菜月昴",
+  "SUBARU-SUBARU.titleObject": "菜月昴",
+  "SUBARU-SUBARU.description": "休学的普通高中生，受到异世界的召唤，发誓要亲手杀死魔女……",
+  "SUBARU-SUBARU.unlockText": "以[gold]愚者[/gold]进行一局游戏来解锁。",
+  "SUBARU-SUBARU.pronounSubject": "he",
+  "SUBARU-SUBARU.pronounObject": "him",
+  "SUBARU-SUBARU.pronounPossessive": "his",
+  "SUBARU-SUBARU.possessiveAdjective": "his",
+  "SUBARU-SUBARU.goldMonologue": "[TODO] 获得大量金币时的独白。",
+  "SUBARU-SUBARU.eventDeathPrevention": "[TODO] 联机中阻止队友死亡时的台词。",
+  "SUBARU-SUBARU.aromaPrinciple": "[TODO] Aroma of Chaos 事件文案。",
+  "SUBARU-SUBARU.cardsModifierTitle": "菜月昴的卡牌",
+  "SUBARU-SUBARU.cardsModifierDescription": "菜月昴的卡牌现在会出现在奖励和商店中。",
+  "SUBARU-SUBARU.banter.alive.endTurnPing": "[TODO] 催促队友结束回合。",
+  "SUBARU-SUBARU.banter.dead.endTurnPing": "..."
+}
