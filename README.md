@@ -2,7 +2,7 @@
 
 《Re:Zero》菜月昴的自制角色 Mod，含独立角色、卡牌、遗物、时间线解锁与过场演出（cut-in）。
 
-- **当前版本**：`0.3.39`
+- **当前版本**：`0.3.40`
 - **适配游戏**：Slay the Spire 2 **β v0.114.0**
 - **Steam 创意工坊**：item `3840131390`
 - **本仓库**：源码 + 美术资源 + 设计/技术文档；可直接运行的发行包见 Releases。
@@ -25,16 +25,16 @@
 
 **方式一（推荐）**：创意工坊订阅 `3840131390`，游戏启动时自动加载。
 
-**方式二（手动）**：从 [Releases](../../releases) 下载 `Subaru_v<版本>.zip`，解压到
+**方式二（手动）**：从 [Releases](../../releases) 下载 `Subaru_v<版本>.zip`，解压到游戏根目录，得到
 
 ```
-Slay the Spire 2/mods/Subaru/Subaru/
+Slay the Spire 2/mods/Subaru/
     Subaru.dll
     Subaru.pck
     Subaru.json
 ```
 
-注意是两层 `Subaru` 目录（加载器按 `mods/<id>/<id>/<manifest>.json` 查找）。
+（加载器会递归扫描 `mods/` 下的清单，再多套一层 `mods/Subaru/Subaru/` 也能识别。）
 
 ## 从源码构建
 
