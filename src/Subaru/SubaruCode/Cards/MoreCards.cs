@@ -194,10 +194,14 @@ public sealed class InvisibleProvidence() : SubaruCard(1, CardType.Attack, CardR
 }
 
 /// <summary>
-/// 傲慢司教：远古，2 费，能力。获得 3 层[傲慢]；此后每次死归，额外获得 2 点力量与 2 点敏捷。
+/// 傲慢司教：稀有，2 费，能力。获得 3 层[傲慢]；此后每次死归，额外获得 2 点力量与 2 点敏捷。
 /// 权能 18、腐蚀。升级：固有。（0.2.43：3 费 → 2 费）
+///
+/// <para>2026-11-27：稀有度由「先古」改为「稀有」。先古卡在引擎里只由两件遗物发放
+/// （远古之牙 / 尘封之书），玩家几乎摸不到；改为稀有后正常进奖励池与商店。
+/// 卡面同时按普通卡比例重裁（500×380 / 1000×760）。</para>
 /// </summary>
-public sealed class ArchbishopPride() : SubaruCard(2, CardType.Power, CardRarity.Ancient, TargetType.Self)
+public sealed class ArchbishopPride() : SubaruCard(2, CardType.Power, CardRarity.Rare, TargetType.Self)
 {
     /// <summary>傲慢司教的立绘 cut-in（2026-11-23 接入）。</summary>
     public override string? CutInId => "pride";

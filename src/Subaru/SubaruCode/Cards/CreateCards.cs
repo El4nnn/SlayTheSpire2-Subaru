@@ -196,8 +196,8 @@ public sealed class PandoraWitch() : SubaruCard(0, CardType.Power, CardRarity.Ra
             ModelDb.Card<SatellaWitch>(),
         };
 
-        // 只留「正常获取的稀有牌」：先古稀有度（傲慢司教已升格）和只能由别的牌生成的
-        // （强欲的契约）都不该从随机里冒出来。
+        // 只留「正常获取的稀有牌」：先古稀有度（傲慢司教已于 2026-11-27 改回稀有，重新进池）
+        // 和只能由别的牌生成的（强欲的契约）都不该从随机里冒出来。
         pool.RemoveAll(c => c.Rarity != CardRarity.Rare || (c is SubaruCard sc && sc.IsGenerateOnly));
 
         var result = new List<CardModel>();

@@ -66,6 +66,9 @@ public static class EpochMaintenancePatch
             // 老存档修补：以前写成 Obtained 的节点升级成 Revealed（卡池/图鉴才看得到）
             SubaruEpochGranter.EnsureRevealed();
 
+            // 「帝国的剑狼」自建计数器：每场战斗开头重算一次（读档时还会再算一次）
+            SwordWolfProgress.Reconcile("combat start");
+
             if (player == null)
                 return;
 

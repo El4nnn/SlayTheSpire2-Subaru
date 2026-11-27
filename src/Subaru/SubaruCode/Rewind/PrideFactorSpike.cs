@@ -209,6 +209,18 @@ public class PrideFactorSpike : SubaruRelic
     public override Task AfterCombatEnd(CombatRoom room)
     {
         DeathReturnSpike.ResetForCombat();
+
+        // 「帝国的剑狼」自建计数器：首领战胜利 +1（统计没记上的话，我们自己记）
+        try
+        {
+            var bossWon = room != null && room.RoomType == RoomType.Boss;
+            Subaru.SubaruCode.Timeline.SwordWolfProgress.OnCombatEnded(bossWon);
+        }
+        catch (System.Exception e)
+        {
+            Godot.GD.PushWarning("[Subaru] sword wolf combat-end hook failed: " + e.Message);
+        }
+
         return Task.CompletedTask;
     }
 

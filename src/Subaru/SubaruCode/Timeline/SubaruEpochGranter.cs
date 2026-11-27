@@ -78,7 +78,45 @@ public static class SubaruEpochGranter
         }
     }
 
-    private static EpochState? StateOf(ProgressState progress, string epochId)
+    /// <summary>节点是否已经是 Revealed（卡池/图鉴才认这个状态）。</summary>
+    public static bool IsRevealed(string epochId)
+    {
+        var progress = SaveManager.Instance?.Progress;
+        return progress != null && StateOf(progress, epochId) == EpochState.Revealed;
+    }
+
+    /// <summary>
+    /// 已经「获得」但还停在 Obtained(4) 的节点，升级成 Revealed(5)。
+    /// 原版流程是「获得 → 玩家在时间线点一下 → 揭示」，mod 节点没有那一步，
+    /// 而卡池只认 Revealed，所以必须自动补。
+    /// </summary>
+    public static void RevealIfNeeded(string epochId)
+    {
+        try
+        {
+            var save = SaveManager.Instance;
+            var progress = save?.Progress;
+            if (save == null || progress == null)
+                return;
+
+            var state = StateOf(progress, epochId);
+            if (state == null || state == EpochState.Revealed)
+                return;
+
+            if (state != EpochState.Obtained && state != EpochState.ObtainedNoSlot)
+                return;
+
+            save.ObtainEpochOverride(epochId, EpochState.Revealed);
+            save.SaveProgressFile();
+            GD.Print($"[Subaru] epoch upgraded to Revealed: {epochId} (was {state})");
+        }
+        catch (Exception e)
+        {
+            GD.PushWarning("[Subaru] reveal-if-needed failed: " + e.Message);
+        }
+    }
+
+    public static EpochState? StateOf(ProgressState progress, string epochId)
     {
         try
         {
@@ -102,10 +140,12 @@ public static class SubaruEpochGranter
         if (string.IsNullOrEmpty(epochId) || Granted.Contains(epochId))
             return;
 
-        // 存档里已经有了就别再发一次（原版流程会打日志、可能触发解锁提示）
+        // 存档里已经有了就别再发一次；但如果它停在 Obtained(4)（原版要玩家点时间线才揭示），
+        // 顺手补成 Revealed(5) —— 否则卡池永远看不见，表现就是「解锁了但没解锁」。
         if (SubaruEpochGate.IsObtained(epochId))
         {
             Granted.Add(epochId);
+            RevealIfNeeded(epochId);
             return;
         }
 
